@@ -8,7 +8,7 @@ This Spring Boot project explains how to Configure the Global CORS in a Micro-se
 
 There are two ways to achieve this -
 
-1)  Configure via Application properties -- Limitations is Runtime changes can't be done.
+1)  Configure via Application properties/yaml file -- Limitations is Runtime changes can't be done.
 2)  Spring cloud configuration properties via Bootstrap file and Runtime properties changes can be done without buildind
 	& redeploying the application.
 	
@@ -22,3 +22,5 @@ Allowed-Credentials - is not enabled by default since that establishes a trust l
 					  and should only be used where appropriate.
 
 maxAge is set to 30 minutes.
+
+This example illustrates how to configure via application properties/yml file.
