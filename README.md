@@ -1,4 +1,4 @@
-# Spring_Micorservices_CORS
+# Spring_Microservices_CORS
 
 CORS - Cross-Origin Resource Sharing (CORS) is a W3C specification implemented by most browsers that allows you to 
 specify what kind of cross domain requests are authorized rather than using less secure and less powerful workarounds.
