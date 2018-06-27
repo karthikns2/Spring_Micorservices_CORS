@@ -1,0 +1,19 @@
+logging:
+  file: logs/spring-boot-logging.log
+  level:
+    org:
+      hibernate: ERROR
+      springframework:
+        controllers: DEBUG
+        web: INFO
+management:
+  endpoints:
+    app:
+      cors:
+        allowed-credentials: false
+        allowed-methods: GET, POST
+        allowed-origins: http:/domain.com
+        max-age: 1800
+server:
+  contextPath: /global-cors-app
+  port: "8080"

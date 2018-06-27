@@ -18,7 +18,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 @ComponentScan({ "com.karnee.global.cors" })
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:application.yml")
 public class CorsExampleCorsConfig implements WebMvcConfigurer {
 
 	@Autowired
